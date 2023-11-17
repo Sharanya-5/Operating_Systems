@@ -20,41 +20,7 @@ int main()
 	}
 	
 	int allocate[n];
-    //int occupied[m];
     
- 
-  /*  for(int i = 0; i < n; i++){
-        allocate[i] = -1;
-    }
-    
-    for(int i = 0; i < m; i++){
-        occupied[i] = 0;
-    }
-    for(int i=0;i<n;i++)
-    {  
-    int index=-1;
-    	for(int j=0;j<m;j++)
-    	{
-    	if (b[j] >= p[i] && occupied[j]!=0)
-            {
-                if (index== -1)
-                    index= j;
-                    
-                
-                else if (b[j] < b[index])
-                    index= j;
-            }
-        }
- 
-        if (index!= -1)
-        {
-            
-            allocate[i] = index;
-            
-            
-            occupied[index] = 1;
-        }
-    }*/
     for(int i=0;i<n;i++)
     {  
     int index=-1;
